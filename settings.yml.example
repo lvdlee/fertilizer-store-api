@@ -1,0 +1,13 @@
+# Server configurations
+server:
+  host: "localhost"
+  port: 3000
+
+# SQLite 3 config
+database:
+  location: "./fertilizer.db"
+
+# Authentication configuration
+auth:
+  jwt:
+    secret: "secret"
